@@ -61,7 +61,7 @@ onSubmit() {
   console.log(this.registerForm.value);
   this.myRegForm.resetForm();
   this.submitted = false;
-  this.toastr.success("Registration Successfull");
+  this.toastr.success("Sign Up Successfull");
   // alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.registerForm.value))
  }
 }
